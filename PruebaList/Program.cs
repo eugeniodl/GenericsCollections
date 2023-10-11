@@ -18,6 +18,17 @@ MostrarInformacion(lista);
 
 EliminarColores(lista, eliminarColores);
 
+EliminarListaColores(lista, eliminarLista);
+
+void EliminarListaColores(List<string> lista, 
+    List<string> eliminarLista)
+{
+    foreach(var item in eliminarLista)
+    {
+        lista.Remove(item);
+    }
+}
+
 void EliminarColores(List<string> lista, string[] eliminarColores)
 {
     for (int i = 0; i < eliminarColores.Length; i++)
