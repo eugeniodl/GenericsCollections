@@ -24,6 +24,8 @@ for (LinkedListNode<int> nodo = numeros.First;
     Console.WriteLine(nodo.Value);
 }
 
+//--------------------------------------------------
+
 string[] colores = { "negro", "amarillo", 
 "verde", "azul", "violeta", "plateado"};
 string[] colores2 = { "dorado", "blanco",
@@ -77,5 +79,38 @@ void Imprimir<T>(LinkedList<T> lista)
     {
         Console.Write($"{valor} ");
     }
-    Console.WriteLine("----------------");
 }
+
+// Imprima la lista1 en orden inverso
+ImprimirListaInversa(lista1);
+
+void ImprimirListaInversa<T>(LinkedList<T> lista)
+{
+    Console.WriteLine("Lista invertida:");
+    LinkedListNode<T> nodo = lista.Last;
+
+    while(nodo != null)
+    {
+        Console.Write($"{nodo.Value} ");
+        nodo = nodo.Previous;
+    }
+    Console.WriteLine();
+}
+
+// Eliminar de la lista1 los colores entre NEGRO y CAFÉ
+EliminarElementosEntre(lista1, "NEGRO", "CAFÉ");
+
+void EliminarElementosEntre<T>(LinkedList<T> lista, T elementoInicial, 
+    T elementoFinal)
+{
+    LinkedListNode<T> nodoActual = lista.Find(elementoInicial);
+    LinkedListNode<T> nodoFinal = lista.Find(elementoFinal);
+
+    while((nodoActual.Next != null) &&
+            (nodoActual.Next != nodoFinal))
+    {
+        lista.Remove(nodoActual.Next);
+    }
+}
+
+Imprimir(lista1);
