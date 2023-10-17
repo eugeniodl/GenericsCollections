@@ -11,15 +11,15 @@ namespace pjDiccionario
         private static Dictionary<string, string> _diccionario
             = new Dictionary<string, string>()
             {
-                { "mouse", "A computer mouse is a handheld hardware input device that controls a cursor in a GUI (graphical user interface) and can move and select text." },
-                { "keyboard", "A keyboard is one of the primary input devices used with a computer. Similar to an electric typewriter, a keyboard is composed of buttons" },
-                { "laptop", "A laptop, laptop computer, or notebook computer is a small, portable personal computer with a screen and alphanumeric keyboard."},
-                { "Java", "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible." },
-                { "c++", "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on." },
-                { "python", "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability." },
-                { "html", "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser." },
-                { "css", "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML." },
-                { "programming", "Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result." },
+                { "mouse", "Un mouse de computadora es un dispositivo de entrada de hardware portátil que controla un cursor en una GUI (interfaz gráfica de usuario) y puede mover y seleccionar texto." },
+                { "keyboard", "Un keyboard o teclado es uno de los principales dispositivos de entrada que se utilizan con una computadora. Al igual que una máquina de escribir eléctrica, un teclado se compone de botones." },
+                { "laptop", "Una laptop es una computadora personal pequeña y portátil con una pantalla y un teclado alfanumérico."},
+                { "Java", "Java es un lenguaje de programación de alto nivel, basado en clases y orientado a objetos que está diseñado para tener el menor número posible de dependencias de implementación." },
+                { "c++", "C++ es un potente lenguaje de programación de uso general. Se puede utilizar para desarrollar sistemas operativos, navegadores, juegos, etc." },
+                { "python", "Python es un lenguaje de programación interpretado de alto nivel de propósito general. Su filosofía de diseño enfatiza la legibilidad del código." },
+                { "html", "El lenguaje de marcado de hipertexto o HTML es el lenguaje de marcado estándar para documentos diseñados para mostrarse en un navegador web." },
+                { "css", "Las hojas de estilo en cascada son un lenguaje de hojas de estilo que se utiliza para describir la presentación de un documento escrito en un lenguaje de marcado como HTML." },
+                { "programming", "La programación informática es el proceso de diseñar y construir un programa informático ejecutable para lograr un resultado informático específico." },
             };
 
         public static string GetSignificado(string palabra)
