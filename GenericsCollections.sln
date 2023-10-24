@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSortedList", "PruebaS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pjDiccionario", "pjDiccionario\pjDiccionario.csproj", "{9F5ABF05-85DE-4CAC-BE1D-92060D78FCF4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuing", "Queuing\Queuing.csproj", "{6D62571E-7209-48C6-AE07-70C39A82FB70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9F5ABF05-85DE-4CAC-BE1D-92060D78FCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F5ABF05-85DE-4CAC-BE1D-92060D78FCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F5ABF05-85DE-4CAC-BE1D-92060D78FCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D62571E-7209-48C6-AE07-70C39A82FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D62571E-7209-48C6-AE07-70C39A82FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D62571E-7209-48C6-AE07-70C39A82FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D62571E-7209-48C6-AE07-70C39A82FB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
