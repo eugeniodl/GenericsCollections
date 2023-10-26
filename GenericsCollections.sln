@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuing", "Queuing\Queuing.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLambda", "PruebaLambda\PruebaLambda.csproj", "{4186CF7D-7CAE-4C97-AAD9-01469CF66B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaLINQ", "PruebaLINQ\PruebaLINQ.csproj", "{C65B8375-9765-49D8-B1D1-34415876AB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLINQ", "PruebaLINQ\PruebaLINQ.csproj", "{C65B8375-9765-49D8-B1D1-34415876AB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpresaLINQ", "EmpresaLINQ\EmpresaLINQ.csproj", "{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{C65B8375-9765-49D8-B1D1-34415876AB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65B8375-9765-49D8-B1D1-34415876AB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65B8375-9765-49D8-B1D1-34415876AB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

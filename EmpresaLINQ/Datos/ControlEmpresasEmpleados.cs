@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PruebaLINQ
+namespace EmpresaLINQ
 {
     internal class ControlEmpresasEmpleados
     {
@@ -17,7 +17,12 @@ namespace PruebaLINQ
                 new Empresa()
                 {
                     Id = 1,
-                    Nombre = "",
+                    Nombre = "Hermoso y Vigil, S.A.",
+                },
+                new Empresa()
+                {
+                    Id = 2,
+                    Nombre = "GBM Nicaragua",
                 },
             };
 
