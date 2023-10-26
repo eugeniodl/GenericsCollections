@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuing", "Queuing\Queuing.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLambda", "PruebaLambda\PruebaLambda.csproj", "{3AE8813B-F0D5-40E0-A8DF-3FDBC60BE2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaLINQ", "PruebaLINQ\PruebaLINQ.csproj", "{F053FDE3-B8B0-4066-B311-8E6D69941727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLINQ", "PruebaLINQ\PruebaLINQ.csproj", "{F053FDE3-B8B0-4066-B311-8E6D69941727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpresaLINQ", "EmpresaLINQ\EmpresaLINQ.csproj", "{2C53F768-F64A-438D-B9DC-B29D0B01B74A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{F053FDE3-B8B0-4066-B311-8E6D69941727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F053FDE3-B8B0-4066-B311-8E6D69941727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F053FDE3-B8B0-4066-B311-8E6D69941727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C53F768-F64A-438D-B9DC-B29D0B01B74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C53F768-F64A-438D-B9DC-B29D0B01B74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C53F768-F64A-438D-B9DC-B29D0B01B74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C53F768-F64A-438D-B9DC-B29D0B01B74A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
