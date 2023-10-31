@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace EmpresaLINQ
 {
-    internal class Empresa
+    public class Empresa
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
 
         public override string ToString()
         {
-            return string.Format($"Empresa {Nombre} con {Id}");
+            return string.Format($"Empresa {Nombre} con Id {Id}");
         }
     }
 }

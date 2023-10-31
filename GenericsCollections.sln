@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLambda", "PruebaLambd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLINQ", "PruebaLINQ\PruebaLINQ.csproj", "{C65B8375-9765-49D8-B1D1-34415876AB8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpresaLINQ", "EmpresaLINQ\EmpresaLINQ.csproj", "{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmpresaLINQ", "EmpresaLINQ\EmpresaLINQ.csproj", "{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pjEmpresaLINQ", "pjEmpresaLINQ\pjEmpresaLINQ.csproj", "{AAC9048B-4BFA-477D-96B5-E1CC21FF5CE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0702D7-2322-450E-9FAA-FC4F9BCB32BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC9048B-4BFA-477D-96B5-E1CC21FF5CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC9048B-4BFA-477D-96B5-E1CC21FF5CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC9048B-4BFA-477D-96B5-E1CC21FF5CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC9048B-4BFA-477D-96B5-E1CC21FF5CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

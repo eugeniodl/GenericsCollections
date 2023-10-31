@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpresaLINQ
 {
-    internal class Empleado
+    public class Empleado
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
@@ -16,7 +16,7 @@ namespace EmpresaLINQ
 
         public override string ToString()
         {
-            return string.Format($"Empleado {Nombre} con " +
+            return string.Format($"Empleado {Nombre} con ID " +
                 $"{Id}, cargo {Cargo} con salario {Salario} " +
                 $"pertenece a la empresa {EmpresaId}");
         }
